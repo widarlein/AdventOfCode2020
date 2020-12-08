@@ -16,12 +16,16 @@ dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.4.2")
 }
 
-tasks {
-    "test"(Test::class) {
-        useJUnitPlatform()
-    }
+//tasks {
+//    "test"(Test::class) {
+//        useJUnitPlatform()
+//    }
+//}
+
+tasks.withType<Test> {
+    useJUnitPlatform()
 }
 
 application {
-    mainClassName = "day6.Day6Kt"
+    mainClassName = "day8.Day8Kt"
 }
