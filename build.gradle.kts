@@ -27,5 +27,5 @@ tasks.withType<Test> {
 }
 
 application {
-    mainClassName = "day8.Day8Kt"
+    mainClassName = "day9.Day9Kt"
 }
