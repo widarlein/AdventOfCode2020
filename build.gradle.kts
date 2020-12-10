@@ -12,6 +12,7 @@ repositories {
 
 dependencies {
     implementation(kotlin("stdlib"))
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.2")
 
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.4.2")
 }
@@ -27,5 +28,5 @@ tasks.withType<Test> {
 }
 
 application {
-    mainClassName = "day9.Day9Kt"
+    mainClassName = "day10.Day10Kt"
 }
